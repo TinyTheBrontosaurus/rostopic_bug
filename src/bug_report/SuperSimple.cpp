@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
 
     ros::Rate rate(1);
 
-    for(int i = 0; i < 1000; i++) {
+    for(int i = 0; i < 1000 && ros::ok(); i++) {
         rate.sleep();
         ROS_INFO("%d", i);
     }
