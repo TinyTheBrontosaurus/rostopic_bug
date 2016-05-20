@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>bug_report</name>
+  <version>0.0.0</version>
+  <description>Bugs against large messages</description>
+
+  <maintainer email="enelson@morse-corp.com">Eric Nelson</maintainer>
+  
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <export>
+  </export>
+</package>
